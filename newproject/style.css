@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0 ;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Lato;
+     font-size: 22px;
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     overflow-x: hidden;
+}
+header{
+    width: 1865px;
+    height: 700px;
+    background: url(https://images.unsplash.com/photo-1621928671862-9ca2e447f25d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=Mnw4NjQxOXwwfDF8c2VhcmNofDQ2fHxob3VzaW5nfHwwfHx8fDE2MjMzMDkyNjk&ixlib=rb-1.2.1&q=80&w=1920&auto=format);
+    background-attachment: fixed;
+    background-size: 1865px 720px;
+    text-align: center;
+    color: F3F3F4;
+}
+h2{
+    color: #1D2D52;
+}
+.title{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.header-content{
+    position: relative;
+    top: 100px;
+    color: #F3F3F4;
+    
+    
+}
+header h1{
+    margin-bottom: 60px;
+    position: relative;
+    margin-right: 150px;
+    
+}
+header h5{
+    margin-bottom: 50px;
+    font-weight: 200;
+}
+
+.more{
+    text-decoration: none;
+    color: #F3F3F4;
+    background-color: white;
+    color: #1D2D52;
+    padding:9px 50px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+section{
+    margin-bottom: 140px;
+}
+.section-experience-img{
+    width: 775px;
+    height: 450px;
+
+}
+.section-experience{
+display:flex;
+position: relative;
+top: 50px;
+left: 100px;
+}
+.section-experience-content{
+    position: relative;
+    left: 70px;
+    top: 100px;
+
+}
+.section-experience-content h2{
+    margin-bottom: 20px;
+    
+}
+.section-experience-content p{
+    margin-bottom: 40px;
+    font-weight: 100;
+    color: #8A8A8A;
+    font-size: 15px;
+}
+.section-experience-content a{
+    text-decoration: none;
+    color: #F3F3F4;
+    background-color: #1D2D40;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.card-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.container{
+    display: grid;
+    grid-template-columns: 420px 420px 420px 420px;
+    grid-template-rows: 270px 270px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    
+}
+.card-content{
+    text-align: center;
+    
+    padding: 95px 15px;
+    color: white;
+    background-color: #1D2D40;
+}
+.card-content p{
+    font-size: 15px;
+
+}
